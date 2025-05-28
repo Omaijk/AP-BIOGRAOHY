@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jocelyn M. Gunawan - Biography</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .fade-in-up {
+      animation: fadeInUp 1s ease-out forwards;
+    }
+
+    .divider {
+      height: 1px;
+      background: linear-gradient(to right, transparent, #ef4444, transparent);
+      margin: 1.5rem 0;
+    }
+  </style>
+</head>
+<body class="bg-black font-sans text-gray-200">
+  <div class="min-h-screen flex items-center justify-center px-4">
+    <div class="bg-gray-900 shadow-2xl rounded-3xl p-10 max-w-2xl w-full fade-in-up">
+      <div class="text-center mb-6">
+        <img src="mow.jpg" alt="Profile Photo" class="mx-auto rounded-full w-32 h-32 shadow-lg border-4 border-red-600" />
+        <h1 class="text-4xl font-extrabold mt-4 text-red-500">Stuart Macher</h1>
+        <p class="text-gray-400 text-sm tracking-wide">Played by Matthew Lillard</p>
+      </div>
+
+      <div class="space-y-6 text-base leading-relaxed">
+        <section>
+          <h2 class="text-2xl font-semibold text-red-500">About Me</h2>
+          <p class="mt-2 text-gray-300">
+            Stuart "Stu" Macher is the secondary antagonist of Scream (1996 film). He is Billy Loomis's accomplice, as well as an insensitive and eccentric best friend. A horror movie fanatic, he went along with Billy's slasher film-like murder spree, the late-September 1996 Woodsboro Murders.
+          </p>
+        </section>
+
+        <div class="divider"></div>
+
+        <section>
+          <h2 class="text-2xl font-semibold text-red-500">Things To Note</h2>
+          <ul class="list-disc pl-6 mt-2 text-gray-300 space-y-1">
+            <li class="hover:text-red-400 transition">Birthday: August 4, 1978</li>
+            <li class="hover:text-red-400 transition">Address: 261 Turner Lane, Woodsboro, California</li>
+            <li class="hover:text-red-400 transition">Education: Woodsboro High</li>
+          </ul>
+        </section>
+
+        <div class="divider"></div>
+
+        <section>
+          <h2 class="text-2xl font-semibold text-red-500">Source</h2>
+          <p class="mt-2 text-gray-300">
+            📧 <a href="https://scream.fandom.com/wiki/Stu_Macher" class="text-red-400 hover:underline">https://scream.fandom.com/wiki/Stu_Macher</a>
+          </p>
+        </section>
+
+        <div class="divider"></div>
+
+        <div class="text-center pt-4">
+          <a href="index.html" class="inline-block bg-red-600 hover:bg-red-700 text-white font-semibold py-2 px-6 rounded-full shadow-lg transition">
+            View My Biography
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
